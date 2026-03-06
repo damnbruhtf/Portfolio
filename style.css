@@ -557,7 +557,11 @@ h4 {
     }
 
     .hero-title {
-        font-size: 3rem;
+        font-size: 3.5rem;
+    }
+
+    .intro-brand {
+        font-size: 4rem;
     }
 }
 
@@ -569,10 +573,15 @@ h4 {
 
     .hero-content {
         width: 80%;
+        bottom: 15%;
     }
 
     .hero-title {
-        font-size: 2.5rem;
+        font-size: 2.8rem;
+    }
+
+    .hero-description {
+        font-size: 1.1rem;
     }
 
     .modal-media {
@@ -583,6 +592,45 @@ h4 {
         padding: 0 1.5rem 2rem;
         top: -1.5rem;
     }
+
+    .modal-title {
+        font-size: 2rem;
+    }
+
+    .intro-brand {
+        font-size: 3rem;
+    }
+
+    .navbar {
+        flex-direction: column;
+        height: auto;
+        padding: 15px 4%;
+        background-color: var(--bg-main);
+    }
+
+    .nav-brand {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .nav-links {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 1.2rem;
+    }
+
+    .intro-brand.shrink {
+        top: 25px;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 1.8rem;
+    }
+
+    .footer-content {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
 }
 
 @media (max-width: 480px) {
@@ -591,8 +639,73 @@ h4 {
         max-width: 50%;
     }
 
+    .item-title {
+        font-size: 3vw;
+    }
+
+    .hero-title {
+        font-size: 2.2rem;
+    }
+
+    .hero-description {
+        font-size: 0.95rem;
+    }
+
+    .btn {
+        padding: 0.6rem 1rem;
+        font-size: 1rem;
+        margin-bottom: 10px;
+    }
+
+    .btn-info {
+        margin-left: 0;
+    }
+
+    .hero-buttons {
+        display: flex;
+        flex-direction: column;
+        width: fit-content;
+    }
+
+    .modal-media {
+        height: 200px;
+    }
+
+    .modal-title {
+        font-size: 1.5rem;
+    }
+
+    .slider-btn {
+        width: 15%;
+        font-size: 8vw;
+        background: rgba(0, 0, 0, 0.6);
+        opacity: 1;
+        /* Always show buttons on mobile for discoverability */
+    }
+
+    .slider-btn.left {
+        left: 0;
+    }
+
+    .slider-btn.right {
+        right: 0;
+    }
+
+    .row-header {
+        font-size: 5vw;
+        padding-left: 2%;
+    }
+
+    .intro-brand {
+        font-size: 2.2rem;
+    }
+
     .nav-links {
-        display: none;
+        gap: 0.8rem;
+    }
+
+    .nav-links a {
+        font-size: 0.85rem;
     }
 }
 
