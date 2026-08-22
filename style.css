@@ -58,4 +58,4 @@
 .damned-media-figure .play-chip{left:50%;top:50%;bottom:auto;transform:translate(-50%,-50%)}
 .damned-hero{background:linear-gradient(90deg,rgba(2,4,4,.98) 0%,rgba(2,4,4,.74) 50%,rgba(14,3,6,.42) 100%),url("media/posters/spectral-veil.jpg") center/cover no-repeat}
 
-@media(max-width:760px){.reel-details{align-items:flex-start;flex-direction:column}.damned-structure{opacity:.42}}
+@media(max-width:760px){.reel-details{align-items:flex-start;flex-direction:column}.technical-card{min-width:0}.damned-structure{opacity:.42}}
